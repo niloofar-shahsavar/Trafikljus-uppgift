@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trafik light2</title>
+
+    <style>
+      body {
+        background-color: rgb(180, 174, 174);
+      }
+
+      #main_box {
+        background-color: white;
+        width: 250px;
+        height: 715px;
+        padding-top: 1px;
+        margin-left: 60%;
+        margin: auto;
+      }
+
+      .box1,
+      .box2,
+      .box3 {
+        margin: auto;
+        margin-top: 5%;
+        width: 200px;
+        height: 200px;
+      }
+
+      .box1 {
+        background-color: red;
+        border: 10px solid white;
+        border-color: rgb(92, 4, 4);
+      }
+
+      .boxinside1 {
+        background-color: rgb(124, 57, 33);
+        bottom: 150px;
+        width: 200px;
+        height: 100px;
+        opacity: 0;
+      }
+
+      .boxinside22 {
+        background-color: rgb(225, 152, 132);
+        bottom: 150px;
+        width: 200px;
+        height: 100px;
+      }
+
+      .box2 {
+        background-color: yellow;
+        border: 10px solid white;
+        border-color: rgb(164, 137, 29);
+      }
+
+      .boxinside2 {
+        background-color: rgb(206, 206, 195);
+        width:50px;
+        height: 0px;
+        opacity: 0.7;
+        border: 3px;
+        margin-bottom: none;
+        padding-top: 100px;
+        padding-left: 50px;
+        margin-top: 100px;
+        margin-left: 100px;
+
+      }
+
+      .box3 {
+        background-color: green;
+        border: 10px solid white;
+        border-color: rgb(5, 42, 18);
+      }
+
+      .boxinside3 {
+        background-color: rgb(180, 181, 151);
+        bottom: 150px;
+        width: 100px;
+        height: 100px;
+        margin-top: 100px;
+        margin : 0px;
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main_box">
+      <div class="box1">
+        <div class="boxinside1"></div>
+        <div class="boxinside22"></div>
+      </div>
+
+      <div class="box2">
+        <div class="boxinside2"></div>
+      </div>
+
+      <div class="box3">
+        <div class="boxinside3"></div>
+      </div>
+    </div>
+  </body>
+</html>
